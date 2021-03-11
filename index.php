@@ -5,492 +5,96 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NEVTIK ONLINE</title>
-  <link rel="stylesheet" href="alat/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="alat/fonts/font-awesome.min.css">
-  <link rel="stylesheet" href="alat/fonts/fontawesome/css/all.css">
-  <style>
-  body{
-    margin: 0px;
-    background-color: #ebe9e9
-  }
-
-
-  ul.nav.navbar-nav.navbar-right{
-    margin-top:-20px;
-    margin-right:18px;
-  }
-
-
-  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
-    color: red;
-    background-color:transparent;
-    font-family: comic sans MS;
-    animation: barafter .5s forwards;
-  }
-
-  .navbar-default .navbar-nav > li > a{
-    color:white;
-    font-family: comic sans MS;
-
-  }
-
-  nav.navbar.navbar-default{
-    height: 100px;
-    background: none;
-    box-shadow: none;
-    border: none;
-    padding-top: 25px;
-    padding-left: 30px;
-    padding-right: 5px;
-  }
-
-
-
-  .navbar-nav > li > a{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-right: -10px;
-  }
-
-
-  #background{
-    margin-top:-120px;
-    background:url(alat/img/nevtik.jpg) no-repeat;
-    background-size:cover;
-    padding-top:120px;
-    height:600px;
-    max-height:1112px;
-  }
-
-  #background .jumbotron{
-    background:none;
-    margin-left:137px;
-    max-width:1000px;
-    margin-top:22px;
-  }
-
-  #background .jumbotron h1{
-    font-family:comic sans MS;
-    color:white;
-    margin-bottom:-10px;
-    margin-top: -80px;
-    margin-left: -120px;
-    animation: text 3s;
-  }
-
-    #p1{
-    font-family:comic sans MS;
-    color:white;
-    margin-bottom:-12px;
-    margin-top:27px;
-    padding-right:700px;
-    margin-left: -120px;
-    animation: text 3s;
-  }
-    #p2{
-    font-family:comic sans MS;
-    color:white;
-    margin-bottom:-12px;
-    padding-right:700px;
-    margin-left: -120px;
-    animation: text 3s;
-  }
-
-    #p3{
-    font-family:comic sans MS;
-    color:white;
-    margin-bottom:-12px;
-    padding-right:700px;
-    margin-left: -120px;
-    animation: text 3s;
-  }
-
-
-  #home{
-    text-align: center;
-    font-family: comic sans MS;
-  }
-
-  #home .container h1{
-    margin:36px;
-  }
-
-  #home .container .row{
-    margin:-3px;
-  }
-
-  #home .isi .container.atas{
-    background-color:#f9f8f8;
-    margin-top:-130px;
-    padding-bottom:37px;
-  }
-  #home .isi .container.atas p{
-  	font-size: 20px;
-  }
-
-  .glyphicon{
-    position: relative;
-    font-size: 42px;
-    color: #27475e;
-  }
-
-
-  .container.bawah{
-  	font-family:comic sans MS;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-  }	
-  .container.bawah h1{
-  	margin-top: 60px;
-  }
-  .container.bawah .img{
-  	margin-top: 50px;
-  	border-radius: 20px;
-  }
-  .container.bawah p{
-  	font-size: 16px;
-  }
-  #jual{
-  	margin-top: 35px;
-  }
-  #web{
-  	margin-top: 13px;
-  }
-  #kursus{
-  	margin-top: 35px;
-  }	
-
-  
-
-  #gallery .container h1{
-    font-family: comic sans MS;
-    margin-bottom: 10px;
-    padding-left: 500px;
-    margin-top: 40px;
-  }
-
-  #gallery .container .row #satu.col-lg-4.col-md-4.col-sm-12.col-xs-12{
-    padding-top:31px;
-    margin-left: -80px;
-  }
-  #gallery .container .row #dua.col-lg-4.col-md-4.col-sm-12.col-xs-12{
-  	padding-top: 31px;
-  	margin-left: 40px;
-  }
-  #gallery .container .row #tiga.col-lg-4.col-md-4.col-sm-12.col-xs-12{
-  	padding-top:31px;
-  	margin-left: 40px; 
-  }
-  #gallery .container .row #empat.col-lg-4.col-md-4.col-sm-12.col-xs-12{
-  	padding-top:50px; 
-  }
-
-  #about{
-    background-color: #102128;
-    margin-top: 79px;
-    color: white;
-  }
-
-  #about .container{
-    width: 100%;
-    padding: 55px;
-  }
-
-  #about .container.footer .col-lg-6.col-md-6.col-sm-12.col-xs-12{
-    font-family:comic sans MS;
-    color:#eee;
-  }
-
-  .input-group.input-group-lg{
-    margin-top:23px;
-  }
-  #icon{
-
-    color:white;
-    font-size:50px;
-    margin-top:50px;
-    margin-bottom:30px;
-    position:static;
-
-  }
-
-  #icon i.fab.fa-facebook{
-    margin-left:17px;
-  }
-
-  #icon i.fab.fa-twitter{
-    margin-left:17px;
-  }
-
-  #icon i.fab.fa-youtube{
-    margin-left:17px;
-  }
-
-  #kaki{
-    color: rgb(40,78,94);
-    background-color: #0f1517;
- }
- #icon a:hover i.fab.fa-facebook{
-	color:blue;
-	animation: icon .5s  forwards;
- }
- #icon a:hover i.fab.fa-twitter{
-	color:skyblue;
- 	animation: icon .5s  forwards;
- }
- #icon a:hover i.fab.fa-youtube{
-	color:red;
-	animation: icon .5s  forwards;
-}
-#icon a:hover i.fab.fa-instagram {
-	color:pink;
-	animation: icon .5s  forwards;
-}
-
-#icon a{
-	color:white;
-}
-*{
-  margin: 0;
-  padding: 0;
-  font-family: comic sans MS;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
-.profile-card{
-  width: 400px;
-  height: 430px;
-  overflow: hidden;
-  text-align: center; 
-  position: relative;
-  box-shadow: 0 0 10px #00000070;
-  background: #102128;
-}
-
-.top-section{
-  padding: 60px 40px;
-  
-}
-
-.message{
-  position: absolute;
-  top: 40px;
-  font-size: 20px;
-  cursor: pointer;
-  color: #ffffff50;
-}
-
-.message{
-  right: 40px;
-  color: white;
-}
-.message:hover{
-	color:maroon; 
-}
-.pic{
-  width: 150px;
-  height: 150px;
-  margin: auto;
-  margin-bottom: 20px;
-  border: 2px solid #2c3e50;
-  border-radius: 50%;
-  padding: 8px;
-  position: relative;
-}
-
-.pic:after{
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  border: 1px solid #2c3e50;
-  left: 0;
-  top: 0;
-  box-sizing: border-box;
-  border-radius: 50%;
-  animation: wave 1.5s infinite linear;
-}
-
-@keyframes wave {
-  to{
-    transform: scale(1.5);
-    opacity: 0;
-  }
-}
-
-.pic img{
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
-
-.name{
-  color: #f1f1f1;
-  font-size: 28px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.bottom-section{
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  text-transform: uppercase;
-}
-
-
-.social-media{
-  position: absolute;	  
-  width: 100%;
-  top: -80px;
-  left: 0;
-  z-index: 1;
-  margin-left: 70px;	
-}
-
-.social-media i{
-  width: 60px;
-  height: 60px;
-  padding-left: 15px;
-  background: #2c3e50;
-  border-radius: 50%;
-  color: #f1f1f1;
-  font-size: 30px;
-  line-height: 60px;
-  margin: 0 10px;
-  position: relative;	
-
- 
-}
-.social-media i:after{
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: #2c3e50;
-  left: 0;
-  top: 0;
-  box-sizing: border-box;
-  border-radius: 50%;
-  z-index: -1;
-  transition: 0.4s linear;
-}
-
-.social-media i:hover:after{
-  transform: scale(1.4);
-  opacity: 0;
-}
-
-
-@keyframes text{
-	 0%{
-	 	color:black;
-	 	margin-left: -1000px; 
-	 }
-
-}
-@keyframes icon{
-	100%{
-		font-size: 60px;
-	}
-}
-@keyframes barafter{
-	100%{
-		font-size: 20px;
-	}
-}
-.collapsible {
-  background-color: maroon;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #102128;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: white;
-}
-.fas{
-	padding-left: 130px;
-	height: 0;
-	font-size: 30px;
-}
-.container1 img{
-	border-radius: 10px;	
-}
-
-</style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css">
+  <link rel="stylesheet" type="text/css" href="alat/css/style.css">
 </head>	
-
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-default navbar-static-top">
-    <div class="container" id="navbar">      
-      </div>
-      <div class="collapse navbar-collapse" id="navcol-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li role="presentation"><a href="#home">HOME</a></li>
-          <li role="presentation"><a href="#services">SERVICES</a></li>
-          <li role="presentation"><a href="#detailpemesanan">DETAIL PEMESANAN</a></li>
-          <li role="presentation"><a href="#gallery">GALLERY</a></li>
-          <li role="presentation"><a href="#about">ABOUT</a></li>
+  <nav class="navbar fixed-top navbar-expand-lg bg-transparant">
+  <div class="container-fluid">
+    <!-- Image and text -->
+      <a class="navbar-brand" href="#">
+        <img src="alat/img/logo.png" alt="" width="50" height="50" class="d-inline-block align-top">
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#detailpemesanan">Detail Pemesanan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">about</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> -->
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
   <!-- navbar -->
 
   <!-- jumbotron -->
-  <div id="background">
-    <div class="jumbotron">
-      <h1>NEVTIK ONLINE</h1>
-      <p id="p1">Perusahaan yang bergerak di bidang IT</p><p id="p2">dengan karyawan yang berkemampuan</p><p id="p3">tinggi dan loyal terhadap layanan pelanggan</p>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="alat/img/bg1.svg" class="d-block w-100" alt="...">
+        <p><span>nevtik</span> is a technology organization</p>
+      </div>
+      <div class="carousel-item">
+        <img src="alat/img/bg2.svg" class="d-block w-100" alt="...">
+        <p>with members who are competent in their respective fields</p>
+      </div>
+      <div class="carousel-item">
+        <img src="alat/img/bg3.svg" class="d-block w-100" alt="...">
+        <p>has been trusted by many clients</p>
+      </div>
     </div>
   </div>
   <!-- jumbotron -->
 
   <!-- container atas -->
-  <div id="home">
     <div class="isi">
       <div class="container atas">
-        <h1>TENTANG KAMI</h1>
+        <h1>Our Motto</h1>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <i class="glyphicon glyphicon-flash"></i>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 motto">
             <h3>SKILL</h3>
-            <p class="text-justify"><strong>Skill</strong>-Mengutamakan skill dalam bekerja,karyawan bertalenta dan ber etika,skill para karyawan sudah teruji dan mendapatkan banyak sertifikasi nasional maupun internasional dengan begitu perusahaan kami memberikan jaminan pekerja yang handal.</p>
+            <img src="alat/img/m1.png">
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <i class="glyphicon glyphicon-king"></i>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 motto">
             <h3>INTEGRITY</h3>
-            <p class="text-justify"><strong>Integrity</strong>-Integritas di tunjukan oleh para pekerja sebagai bentuk pengamalan etika dan attitude dalam bekerja,standar internasional dan pola pikir yang modern serta disiplin dan bertanggung jawab dalam bekerja.</p>
+            <img src="alat/img/m2.png">
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <i class="glyphicon glyphicon-star"></i>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 motto">
             <h3>PASSION</h3>
-            <p class="text-justify"><strong>Passion</strong>-Dengan pekerja yang bekerja sesuai keahlian di bidang nya masing masing,handal dan berpengalaman,tanpa perlu takut kesalahan,bekerja lebih menyenangkan jika dikerjakan sesuai kemauan dan keinginan.</p>
+            <img src="alat/img/m3.png">
           </div>
         </div>
       </div>
     </div>
-  </div>
   <!-- container atas -->
 
   <!-- container bawah -->
@@ -525,7 +129,7 @@
   </div>
 </div>
   <!-- container bawah -->
-
+	
   <!--  news -->
   <div id="detailpemesanan">
     <div class="container1">
