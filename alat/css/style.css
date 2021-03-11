@@ -1,0 +1,450 @@
+    
+
+  /*Global Property*/
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "Comic Sans MS";
+    }
+
+
+  /*Navbar*/
+    nav .navbar-collapse li{
+      padding-left: 15px;
+    }
+
+    nav .navbar-collapse li a{
+      font-size: 18px;
+      color: black !important;
+      border-radius: 5px;
+    }
+
+    nav .navbar-collapse li:hover a{
+      color: white !important;
+      background-color: #9f383b;
+      border-radius: 5px;
+      transition: all .5s ease;
+    }
+
+    .bg-transparant {
+      background: rgba(0,0,0,.2) !important;
+      transition :.7s ease;
+    }
+
+    .bg-transparant.scroll{
+      background-color: rgba(255,255,255,.9) !important;
+    }
+
+    /*    .navbar-nav.scroll a:hover{
+          background-color: rgba(0,0,0,.0) !important;
+          color: black !important;
+        }*/
+
+    /*    .bg-transparant.scroll a{
+          color: white !important;
+        }*/
+
+
+
+    /*Jumbotron*/
+    .carousel-inner{
+      margin-top: 75px;
+    } 
+    
+    .carousel-inner{
+      position: relative;
+    }
+
+    .carousel-item:nth-child(1) p{
+      position: absolute;
+      z-index: 5;
+      color: black;
+      top: 50px;
+      right: 100px;
+      bottom: 50px;
+      font-size: 28px;
+      text-transform: capitalize;
+    }
+
+    .carousel-item span{
+      color: #9f383b;
+      font-weight: bold;
+    }
+
+    .carousel-item:nth-child(2) p{
+      position: absolute;
+      z-index: 5;
+      color: black;
+      left: 30px;
+      top: 80px;
+      text-transform: capitalize;
+      font-size: 28px;
+      width: 350px;
+      height: 250px;
+    }
+
+    .carousel-item:nth-child(3) p{
+      position: absolute;
+      z-index: 5;
+      color: black;
+      right: 20%;
+      bottom: 80px;
+      text-transform: capitalize;
+      font-size: 28px;
+    }
+
+    .carousel-item img{
+      width: 100%;
+      height: 600px;
+      padding: 50px;
+    } 
+
+    .carousel-item:nth-child(2) img{
+      margin-left: 100px;
+    }
+
+
+    /*Motto Section*/
+    .container.atas h1{
+      text-align: center;
+    }
+
+    .container.atas .row{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .motto{
+      margin-top: 10px;
+      text-align: center;
+      background: rgb(192,66,69);
+      background: linear-gradient(180deg, rgba(192,66,69,1) 31%, rgba(159,56,59,1) 92%);
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .2);
+      border-radius: 10px;
+    }
+
+    .container.atas h1{
+      margin: 30px 0;
+    }
+
+    .isi .container.atas h3{
+    	font-size: 28px;
+      font-weight: bold;
+      padding: 20px;
+      color: black;
+    }
+
+    .isi .container.atas img{
+      width: 100px;
+      padding-bottom: 80px;
+      margin-top: 20px;
+    }
+
+    
+
+    .glyphicon{
+      position: relative;
+      font-size: 42px;
+      color: #27475e;
+    }
+
+
+    .container.bawah{
+    	font-family:comic sans MS;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+
+    }	
+    .container.bawah h1{
+    	margin-top: 60px;
+    }
+    .container.bawah .img{
+    	margin-top: 50px;
+    	border-radius: 20px;
+    }
+    .container.bawah p{
+    	font-size: 16px;
+    }
+    #jual{
+    	margin-top: 35px;
+    }
+    #web{
+    	margin-top: 13px;
+    }
+    #kursus{
+    	margin-top: 35px;
+    }	
+
+    
+
+    /*#gallery .container h1{
+      font-family: comic sans MS;
+      margin-bottom: 10px;
+      padding-left: 500px;
+      margin-top: 40px;
+    }
+
+    #gallery .container .row #satu.col-lg-4.col-md-4.col-sm-12.col-xs-12{
+      padding-top:31px;
+      margin-left: -80px;
+    }
+    #gallery .container .row #dua.col-lg-4.col-md-4.col-sm-12.col-xs-12{
+    	padding-top: 31px;
+    	margin-left: 40px;
+    }
+    #gallery .container .row #tiga.col-lg-4.col-md-4.col-sm-12.col-xs-12{
+    	padding-top:31px;
+    	margin-left: 40px; 
+    }
+    #gallery .container .row #empat.col-lg-4.col-md-4.col-sm-12.col-xs-12{
+    	padding-top:50px; 
+    }
+
+    #about{
+      background-color: #102128;
+      margin-top: 79px;
+      color: white;
+    }
+
+    #about .container{
+      width: 100%;
+      padding: 55px;
+    }
+
+    #about .container.footer .col-lg-6.col-md-6.col-sm-12.col-xs-12{
+      font-family:comic sans MS;
+      color:#eee;
+    }
+
+    .input-group.input-group-lg{
+      margin-top:23px;
+    }
+    #icon{
+
+      color:white;
+      font-size:50px;
+      margin-top:50px;
+      margin-bottom:30px;
+      position:static;
+
+    }
+
+    #icon i.fab.fa-facebook{
+      margin-left:17px;
+    }
+
+    #icon i.fab.fa-twitter{
+      margin-left:17px;
+    }
+
+    #icon i.fab.fa-youtube{
+      margin-left:17px;
+    }
+
+    #kaki{
+      color: rgb(40,78,94);
+      background-color: #0f1517;
+   }
+   #icon a:hover i.fab.fa-facebook{
+  	color:blue;
+  	animation: icon .5s  forwards;
+   }
+   #icon a:hover i.fab.fa-twitter{
+  	color:skyblue;
+   	animation: icon .5s  forwards;
+   }
+   #icon a:hover i.fab.fa-youtube{
+  	color:red;
+  	animation: icon .5s  forwards;
+  }
+  #icon a:hover i.fab.fa-instagram {
+  	color:pink;
+  	animation: icon .5s  forwards;
+  }
+
+  #icon a{
+  	color:white;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: comic sans MS;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .profile-card{
+    width: 400px;
+    height: 430px;
+    overflow: hidden;
+    text-align: center; 
+    position: relative;
+    box-shadow: 0 0 10px #00000070;
+    background: #102128;
+  }
+
+  .top-section{
+    padding: 60px 40px;
+    
+  }
+
+  .message{
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff50;
+  }
+
+  .message{
+    right: 40px;
+    color: white;
+  }
+  .message:hover{
+  	color:maroon; 
+  }
+  .pic{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 2px solid #2c3e50;
+    border-radius: 50%;
+    padding: 8px;
+    position: relative;
+  }
+
+  .pic:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #2c3e50;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+    animation: wave 1.5s infinite linear;
+  }
+
+  @keyframes wave {
+    to{
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+
+  .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .name{
+    color: #f1f1f1;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .bottom-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+
+
+  .social-media{
+    position: absolute;	  
+    width: 100%;
+    top: -80px;
+    left: 0;
+    z-index: 1;
+    margin-left: 70px;	
+  }
+
+  .social-media i{
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+    background: #2c3e50;
+    border-radius: 50%;
+    color: #f1f1f1;
+    font-size: 30px;
+    line-height: 60px;
+    margin: 0 10px;
+    position: relative;	
+
+   
+  }
+  .social-media i:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #2c3e50;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s linear;
+  }
+
+  .social-media i:hover:after{
+    transform: scale(1.4);
+    opacity: 0;
+  }
+
+
+  @keyframes text{
+  	 0%{
+  	 	color:black;
+  	 	margin-left: -1000px; 
+  	 }
+
+  }
+  @keyframes icon{
+  	100%{
+  		font-size: 60px;
+  	}
+  }
+  @keyframes barafter{
+  	100%{
+  		font-size: 20px;
+  	}
+  }
+  .collapsible {
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #102128;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+  }
+  .fas{
+  	padding-left: 130px;
+  	height: 0;
+  	font-size: 30px;
+  }
+  .container1 img{
+  	border-radius: 10px;	
+  }*/
