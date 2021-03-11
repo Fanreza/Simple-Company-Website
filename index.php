@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css">
   <link rel="stylesheet" type="text/css" href="alat/css/style.css">
 </head>	
-	
+
+
+
 <body>
   <!-- navbar -->
-<nav class="navbar fixed-top navbar-expand-lg bg-transparant">
+  <nav class="navbar fixed-top navbar-expand-lg bg-transparant">
   <div class="container-fluid">
     <!-- Image and text -->
       <a class="navbar-brand" href="#">
@@ -129,9 +132,9 @@
   </div>
 </div>
   <!-- container bawah -->
-	
+
   <!--  news -->
-  <div id="detailpemesanan">
+  <!-- <div id="detailpemesanan">
     <div class="container1">
       <div class="row">
       	<center><h1>DETAIL PEMESANAN</h1></center><br><br><br>
@@ -286,10 +289,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--  news -->
   <!-- gallery -->
-  <div id="gallery">
+<!--   <div id="gallery">
     <div class="container">
       <h1>Gallery</h1>
       <div class="row">
@@ -350,10 +353,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- gallery -->
   <!-- gallery -->
-  <div id="gallery">
+  <!-- <div id="gallery">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="satu">
@@ -413,11 +416,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- gallery -->
 
   <!-- about -->
-  <div id="about">
+<!--   <div id="about">
     <div class="container footer">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <h1> <img class =img-circle src="alat/img/logo.jpg" width="200px" height="200px"></h1>
@@ -428,7 +431,7 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <h2>Newsletter Subscription</h2>
           <div class="input-group input-group-lg">
-            <input type="text" class="form-control" value="Your Email">
+            <input type="text" class="form-control" placeholder="Your Email">
             <div class="input-group-btn">
               <button class="btn btn-primary" type="submit">Subscribe </button>
             </div>
@@ -446,17 +449,36 @@
           </div>
         </div>
     </div>
-  </div>
+  </div> -->
   <!-- about -->
 
+
   <!-- watermark -->
-  <div id="kaki">
+<!--   <div id="kaki">
     <div class="container">
       <h5 class="text-center">NEVTIK ONLINE © 2020</h5>
     </div>
-  </div>
+  </div> -->
 </body>
-<script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+   $(window).scroll(function(){
+       $('nav').toggleClass('scroll', $(this).scrollTop() > 10);
+       });
+
+   $(window).scroll(function(){
+       $('ul').toggleClass('scroll', $(this).scrollTop() > 10);
+       });
+
+</script>
+
+<!-- <script>
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -471,5 +493,5 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-</script>
+</script> -->
 </html>
